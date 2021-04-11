@@ -23,3 +23,7 @@ function newItem(){
   function deleteListItem(){
  		li.addClass('delete');
  	}
+//  Adding ability to re-order items on the List
+  $('#list').sortable();
+
+}
