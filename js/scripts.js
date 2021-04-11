@@ -9,3 +9,9 @@ let li = $('<li></li>');
    } else {
      $('#list').append(li);
    }
+//  To cross out a completed item from the List
+li.on('dblclick',crossOut);
+
+   function crossOut() {
+ 		li.toggleClass('strike');
+ 	}
