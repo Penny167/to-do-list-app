@@ -9,6 +9,7 @@ function newItem(){
      alert('Enter an item to add to your list');
   } else {
      $('#list').append(li);
+     $('#toDoList')[0].reset();
   }
 
 //  To cross out a completed item from the List
